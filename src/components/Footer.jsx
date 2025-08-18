@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo + Description */}
         <div>
           <div className="flex items-center gap-3">
-            <img src="/logo.svg" alt="Asknova Logo" className="w-8 h-8" />
+            <img src="/logo_two.png" alt="Asknova Logo" className="w-8 h-8" />
             <h1 className="text-xl font-bold tracking-wide">ASKANOVA</h1>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-[#f7f0f1]/80">

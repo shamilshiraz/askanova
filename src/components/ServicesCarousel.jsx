@@ -24,7 +24,7 @@ export default function ServicesCarousel() {
     {
       id: 3,
       image:
-        "https://images.unsplash.com/photo-1560184897-67f4b5f83b2d?auto=format&fit=crop&w=800&q=80",
+        "/downtown.jpeg",
       title: "Renting",
       description:
         "Connecting tenants and landlords with reliable rental solutions for homes and offices.",
