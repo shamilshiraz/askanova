@@ -18,6 +18,7 @@ import ServicesCarousel from "./components/ServicesCarousel";
 import AboutPage from "./components/AboutPage";
 import ScrollToTop from "./components/Scrolltotop";
 import WhyChooseUs from "./components/Whyus";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   // 🔥 Lenis init directly inside App
@@ -57,6 +58,7 @@ function App() {
               <BoS />
               <ExpertsSection />
               <ExperienceExcellence />
+              <AboutUs/>
               <WhyChooseUs/>
               <RealEstateForm />
               <Footer />
