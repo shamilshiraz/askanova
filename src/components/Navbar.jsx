@@ -99,7 +99,7 @@ export default function Navbar() {
                 <li onClick={() => setMenuOpen(false)}>
                   <Link
                     to="/"
-                    className="text-[#e1dedb] text-6xl font-[note] block"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     Home
                   </Link>
@@ -107,7 +107,7 @@ export default function Navbar() {
                 <li onClick={() => setMenuOpen(false)}>
                   <Link
                     to="/about"
-                    className="text-[#e1dedb] text-6xl font-[note] block"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     About
                   </Link>
@@ -115,7 +115,7 @@ export default function Navbar() {
                 <li onClick={() => setMenuOpen(false)}>
                   <Link
                     to="/services"
-                    className="text-[#e1dedb] text-6xl font-[note] block"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     Services
                   </Link>
@@ -123,7 +123,7 @@ export default function Navbar() {
                 <li onClick={() => setMenuOpen(false)}>
                   <Link
                     to="/team"
-                    className="text-[#e1dedb] text-6xl font-[note] block"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     Team
                   </Link>
@@ -131,7 +131,7 @@ export default function Navbar() {
                 <li onClick={() => setMenuOpen(false)}>
                   <Link
                     to="/contact"
-                    className="text-[#e1dedb] text-6xl font-[note] block"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     Contact
                   </Link>

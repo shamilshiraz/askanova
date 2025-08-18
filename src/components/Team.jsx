@@ -1,20 +1,14 @@
 "use client";
 
 const team = {
-  ceo: {
-    name: "Jamsheer A P",
-    role: "CEO",
-    image: "/asknova_team.jpg",
+  chairman: {
+    name: "Aboobacker Vattaparambil",
+    role: "Chairman",
+    image: "/aboobacker.jpg",
   },
-  platinum: [
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
-  ],
-  senior: [
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
-    { name: "Jamsheer A P", role: "Client Manager", image: "/asknova_team.jpg" },
+  consultants: [
+    { name: "Abbas A R", role: "Consultant", image: "/abbas.jpg" },
+    { name: "Aboothahir P A", role: "Consultant", image: "/abootahir.jpg" },
   ],
 };
 
@@ -26,31 +20,26 @@ export default function TeamSection() {
         <p className="text-[#a97a67] text-lg font-light mb-2 font-[note]">
           Meet the team
         </p>
-        <h1 className="text-[#f7f0f1] text-3xl md:text-5xl font-light tracking-wider font-[biondi] mb-16">
+        <h1 className="text-[#2f1316] text-3xl md:text-5xl font-light tracking-wider font-[biondi] mb-6">
           OUR STRENGTH
         </h1>
 
-        {/* CEO */}
+        {/* Section Description */}
+        <p className="text-[#2f1316] text-base md:text-lg max-w-3xl mx-auto mb-16 leading-relaxed font-[biondi]">
+          Our team combines decades of expertise with fresh perspectives. 
+          With over 25 years of industry experience, we’ve built a reputation 
+          for excellence, dedication, and innovation — delivering value-driven 
+          solutions that our clients trust.
+        </p>
+
+        {/* Chairman */}
         <div className="flex justify-center mb-20">
-          <TeamCard person={team.ceo} />
+          <TeamCard person={team.chairman} />
         </div>
 
-        {/* Platinum Managers */}
-        <h2 className="text-[#f7f0f1] text-xl font-light tracking-widest mb-10">
-          PLATINUM CLIENT MANAGERS
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mb-20">
-          {team.platinum.map((person, idx) => (
-            <TeamCard key={idx} person={person} />
-          ))}
-        </div>
-
-        {/* Senior Managers */}
-        <h2 className="text-[#f7f0f1] text-xl font-light tracking-widest mb-10">
-          SENIOR CLIENT MANAGERS
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
-          {team.senior.map((person, idx) => (
+        {/* Consultants */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 justify-center">
+          {team.consultants.map((person, idx) => (
             <TeamCard key={idx} person={person} />
           ))}
         </div>
@@ -73,7 +62,9 @@ function TeamCard({ person }) {
       <h3 className="text-[#a97a67] text-2xl font-light font-[note]">
         {person.name}
       </h3>
-      <p className="text-[#] font-[biondi] text-sm tracking-wide">{person.role}</p>
+      <p className="text-[#2f1316] font-[biondi] text-sm tracking-wide">
+        {person.role}
+      </p>
     </div>
   );
 }
