@@ -57,27 +57,40 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
+{/* Who We Serve */}
+<div className="mt-20">
+  <h2 className="text-2xl md:text-3xl font-[biondi] mb-8 text-center">
+    Who We Serve
+  </h2>
+  <div className="grid md:grid-cols-4 gap-6">
+    <div className="p-6 bg-[#2f1316] text-[#f7f1f0] rounded-2xl shadow-md border-2 border-yellow-600">
+      <span className="font-semibold block mb-2">End-users & Families</span>
+      <p className="font-light leading-relaxed">
+        Searching for a home that matches lifestyle aspirations.
+      </p>
+    </div>
+    <div className="p-6 bg-[#2f1316] text-[#f7f1f0] rounded-2xl shadow-md border-2 border-yellow-600">
+      <span className="font-semibold block mb-2">Global Investors & Family Offices</span>
+      <p className="font-light leading-relaxed">
+        Strategizing portfolios that appreciate in value.
+      </p>
+    </div>
+    <div className="p-6 bg-[#2f1316] text-[#f7f1f0] rounded-2xl shadow-md border-2 border-yellow-600">
+      <span className="font-semibold block mb-2">Landlords & Tenants</span>
+      <p className="font-light leading-relaxed">
+        Seeking smooth, transparent relationships.
+      </p>
+    </div>
+    <div className="p-6 bg-[#2f1316] text-[#f7f1f0] rounded-2xl shadow-md border-2 border-yellow-600">
+      <span className="font-semibold block mb-2">SMEs & Corporate Clients</span>
+      <p className="font-light leading-relaxed">
+        Aligning real estate with business growth.
+      </p>
+    </div>
+  </div>
+</div>
 
-        {/* Who We Serve */}
-        <div className="mt-20">
-          <h2 className="text-2xl md:text-3xl font-[biondi] mb-8">
-            Who We Serve
-          </h2>
-          <ul className="grid md:grid-cols-2 gap-6 font-light leading-relaxed">
-            <li>
-              <span className="font-semibold">End-users & Families:</span> Searching for a home that matches lifestyle aspirations.
-            </li>
-            <li>
-              <span className="font-semibold">Global Investors & Family Offices:</span> Strategizing portfolios that appreciate in value.
-            </li>
-            <li>
-              <span className="font-semibold">Landlords & Tenants:</span> Seeking smooth, transparent relationships.
-            </li>
-            <li>
-              <span className="font-semibold">SMEs & Corporate Clients:</span> Aligning real estate with business growth.
-            </li>
-          </ul>
-        </div>
+
       </div>
     </section>
   );

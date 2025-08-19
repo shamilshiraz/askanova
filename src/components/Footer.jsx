@@ -13,8 +13,10 @@ function Footer() {
             <h1 className="text-xl font-bold tracking-wide">ASKANOVA</h1>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-[#f7f0f1]/80">
-            SOME TEXT HERE TO SHOW SOMETHING IMPORTANT SOME TEXT HERE TO SHOW
-            SOMETHING IMPORTANT SOME TEXT HERE TO SHOW SOMETHING IMPORTANT
+        Askanova Property is an excellent real estate brokerage headquartered in
+        Dubai. Founded by a passionate team of seasoned real estate
+        professionals, we focus on advising our clients about property
+        investments in Dubai
           </p>
         </div>
 

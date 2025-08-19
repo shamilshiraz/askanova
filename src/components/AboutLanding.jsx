@@ -32,10 +32,10 @@ export default function AboutLanding() {
         transition={{ delay: 0.6, duration: 0.8 }}
         className="font-['biondi'] text-base md:text-lg max-w-3xl text-[#2b1516]/90 leading-relaxed mb-10"
       >
-        Elite Property is an award-winning real estate brokerage headquartered in
+        Askanova Property is an excellent real estate brokerage headquartered in
         Dubai. Founded by a passionate team of seasoned real estate
         professionals, we focus on advising our clients about property
-        investments in Dubai &amp; the United Kingdom.
+        investments in Dubai
       </motion.p>
 
       {/* Link with animation */}
