@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function BoS() {
   return (
     <div className="py-20 flex flex-col items-center justify-around bg-[#f7f0f1]">
-      <h1 className="font-[biondi] text-3xl sm:text-6xl text-center text-[#2f1316]">
-        Buy sell or rent properties in Dubai
+      <h1 className=" max-w-6xl font-[biondi] text-3xl sm:text-6xl text-center text-[#2f1316]">
+        Buy sell or rent properties in Middle East and India
       </h1>
       <Link
         className="mt-10 border border-[#a97a67] text-[#2f1316] py-3 px-6 text-lg sm:text-2xl 

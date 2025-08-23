@@ -9,6 +9,7 @@ const team = {
   consultants: [
     { name: "Abbas A R", role: "Consultant", image: "/abbas.jpg" },
     { name: "Aboothahir P A", role: "Consultant", image: "/abootahir.jpg" },
+        { name: "Ayyoob", role: "Consultant", image: "/ayyoob.png" },
   ],
 };
 
@@ -38,7 +39,7 @@ export default function TeamSection() {
         </div>
 
         {/* Consultants */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 justify-center">
           {team.consultants.map((person, idx) => (
             <TeamCard key={idx} person={person} />
           ))}

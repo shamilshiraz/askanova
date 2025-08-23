@@ -21,6 +21,7 @@ import WhyChooseUs from "./components/Whyus";
 import AboutUs from "./components/AboutUs";
 import Servicest from "./components/Serviest";
 import DevelopersCommunities from "./components/Blog";
+import Process from "./components/Proces.";
 
 function App() {
   // 🔥 Lenis init directly inside App
@@ -85,9 +86,9 @@ function App() {
           path="/services"
           element={
             <>
-              <ServicesSection />
-              <ServicesCarousel />
+              {/* <ServicesSection /> */}
               <Servicest/>
+                            <ServicesCarousel />
               <Footer />
             </>
           }
@@ -110,6 +111,17 @@ function App() {
           element={
             <>
               <RealEstateForm />
+              <Footer />
+            </>
+          }
+        />
+
+{/* Process [age] */}
+        <Route
+          path="/process"
+          element={
+            <>
+            <Process/>
               <Footer />
             </>
           }

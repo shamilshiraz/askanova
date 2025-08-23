@@ -53,7 +53,7 @@ export default function Navbar() {
       </button>
 
       {/* Center Logo */}
-      <Link to={'/'} className="absolute left-1/2 -translate-x-1/2">
+      <Link to="/" className="absolute left-1/2 -translate-x-1/2">
         <img src="./asknova_logo.png" alt="logo" className="h-[10vh]" />
       </Link>
 
@@ -126,6 +126,15 @@ export default function Navbar() {
                     className="text-[#e1dedb] text-5xl font-[note] block"
                   >
                     Team
+                  </Link>
+                </li>
+                {/* New Process Link */}
+                <li onClick={() => setMenuOpen(false)}>
+                  <Link
+                    to="/process"
+                    className="text-[#e1dedb] text-5xl font-[note] block"
+                  >
+                    Process
                   </Link>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
