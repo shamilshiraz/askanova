@@ -33,6 +33,12 @@ const consultants = [
     description: "Corporate leasing & relocation expertise.",
     image: "/abootahir.jpg",
   },
+    {
+    name: "Rafheek",
+    role: "Property Consultant",
+    description: "Corporate leasing & relocation expertise.",
+    image: "/rafhik.jpg",
+  },
 ];
 
 export default function TeamSection() {
@@ -69,7 +75,7 @@ export default function TeamSection() {
         <h2 className="text-[#2f1316] text-2xl md:text-3xl font-[biondi] mb-12">
           Advisory Consultants
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 justify-center">
           {consultants.map((person, idx) => (
             <TeamCard key={idx} person={person} />
           ))}
