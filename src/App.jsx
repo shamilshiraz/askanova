@@ -55,6 +55,8 @@ function App() {
           path="/"
           element={
             <>
+                  <ScrollToTop />
+
               <Landing />
               <AboutLanding />
               <PropertyCarousel />
@@ -73,7 +75,7 @@ function App() {
         <Route
           path="/team"
           element={
-            <>
+            <>      <ScrollToTop />
               <TeamSection />
              <WhyChooseUs/>
               <Footer />
@@ -85,7 +87,8 @@ function App() {
         <Route
           path="/services"
           element={
-            <>
+            <>      <ScrollToTop />
+
               {/* <ServicesSection /> */}
               <Servicest/>
                             <ServicesCarousel />
@@ -99,6 +102,8 @@ function App() {
           path="/about"
           element={
             <>
+                  <ScrollToTop />
+
               <AboutPage />
               <Footer />
             </>
@@ -110,6 +115,8 @@ function App() {
           path="/contact"
           element={
             <>
+                  <ScrollToTop />
+
               <RealEstateForm />
               <Footer />
             </>
@@ -121,6 +128,8 @@ function App() {
           path="/process"
           element={
             <>
+                  <ScrollToTop />
+
             <Process/>
               <Footer />
             </>
