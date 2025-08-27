@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SpecialisationShowcase() {
   const slides = [
@@ -121,12 +122,12 @@ export default function SpecialisationShowcase() {
 
         {/* CTA */}
         <div className="mt-16 text-center">
-          <a
-            href="/services"
+          <Link
+            to="/services"
             className="inline-block bg-[#a97a67] text-[#f7f0f1] px-8 py-4 rounded-2xl font-[note] text-lg tracking-wide hover:bg-[#8c5f50] transition-colors duration-300 shadow-lg"
           >
             Explore Our Services
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -102,10 +102,9 @@ function Footer() {
         <div>
           <h3 className="text-sm mb-3 uppercase tracking-wide">Address</h3>
           <p className="text-sm leading-relaxed">
-            Floor 1, <br />
-            Sheikh Zayed Road <br />
+            City avenue building, <br />
+             Deira,<br />
             Dubai <br />
-            67303
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ function ExpertsSection() {
         
         {/* Image */}
         <img
-          src="/ayyoob.png" // replace with actual path
+          src="/aboo.jpg" // replace with actual path
           alt="Expert"
           className="w-80 h-100 object-cover rounded-3xl shadow-lg"
         />

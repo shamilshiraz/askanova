@@ -2,21 +2,12 @@
 
 const leadership = [
   {
-    name: "Aboobacker",
-    role: "Chairman",
-    email: "Aboobacker@askanova.ae",
-    phone: "+971 56 782 3927",
-    description:
-      "Strategic leadership, governance, and partnerships that define Askanova’s client-first culture.",
-    image: "/aboobacker.jpg",
-  },
-  {
     name: "Ayyoob Kalliyath",
-    role: "Managing Director",
+    role: "CEO",
     phone: "+971 50 844 9793 | +971 54 765 4369",
     description:
       "Operational excellence, developer relations, and client growth strategies from onboarding to handover.",
-    image: "/ayyoob.png",
+    image: "/ayyoob.jpg",
   },
 ];
 
@@ -65,7 +56,7 @@ export default function TeamSection() {
         <h2 className="text-[#2f1316] text-2xl md:text-3xl font-[biondi] mb-12">
           Leadership Team
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-12 mb-20">
           {leadership.map((person, idx) => (
             <TeamCard key={idx} person={person} />
           ))}
