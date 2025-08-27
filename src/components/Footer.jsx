@@ -106,6 +106,7 @@ function Footer() {
              Deira,<br />
             Dubai <br />
           </p>
+          <a href="https://maps.app.goo.gl/J7ueQsKUDxdFrtfg7">View on map</a>
         </div>
       </div>
     </footer>
