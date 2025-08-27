@@ -1,9 +1,15 @@
 "use client";
 
 const leadership = [
+    {
+    name: "Abbas A.R",
+    role: "CEO",
+    description: "Leading us with excellent Vision for us to reach new heights.",
+    image: "/abbas.jpg",
+  },
   {
     name: "Ayyoob Kalliyath",
-    role: "CEO",
+    role: "Managing Director",
     phone: "+971 50 844 9793 | +971 54 765 4369",
     description:
       "Operational excellence, developer relations, and client growth strategies from onboarding to handover.",
@@ -12,12 +18,7 @@ const leadership = [
 ];
 
 const consultants = [
-  {
-    name: "Abbas A.R",
-    role: "Senior Property Consultant",
-    description: "Residential investments, multi-sector insights.",
-    image: "/abbas.jpg",
-  },
+
   {
     name: "Aboothahir P.A",
     role: "Property Consultant",
@@ -66,7 +67,7 @@ export default function TeamSection() {
         <h2 className="text-[#2f1316] text-2xl md:text-3xl font-[biondi] mb-12">
           Advisory Consultants
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 justify-center">
           {consultants.map((person, idx) => (
             <TeamCard key={idx} person={person} />
           ))}

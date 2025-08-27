@@ -12,12 +12,19 @@ function ExpertsSection() {
       {/* Content */}
       <div className="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-10 sm:gap-20 max-w-6xl px-6">
         
-        {/* Image */}
-        <img
-          src="/aboo.jpg" // replace with actual path
-          alt="Expert"
-          className="w-80 h-100 object-cover rounded-3xl shadow-lg"
-        />
+        {/* Image + Text under it */}
+        <div className="flex flex-col items-center text-center">
+          <img
+            src="/aboo.jpg" // replace with actual path
+            alt="Expert"
+            className="w-80 h-100 object-cover rounded-3xl shadow-lg"
+          />
+          <div className="mt-4 text-center sm:text-center">
+            <p className="font-[biondi] text-xl">Chairman</p>
+            <p className="font-[biondi] text-xl">Aboobacker@askanova.ae</p>
+            <p className="font-[biondi] text-lg text-[#a97a67]">+971 56 782 3927</p>
+          </div>
+        </div>
 
         {/* Text + Button */}
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left max-w-xl">

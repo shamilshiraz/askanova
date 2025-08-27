@@ -7,7 +7,7 @@ function BoS() {
       <h1 className=" max-w-6xl font-[biondi] text-3xl sm:text-6xl text-center text-[#2f1316]">
         Buy sell or rent properties in Middle East and India
       </h1>
-      <Link
+      <Link to={'/contact'}
         className="mt-10 border border-[#a97a67] text-[#2f1316] py-3 px-6 text-lg sm:text-2xl 
                    rounded-full font-[note] 
                    transition-all duration-300 ease-in-out
