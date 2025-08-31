@@ -31,6 +31,7 @@ export default function SpecialisationShowcase() {
       "DIC (Dubai Industrial City)",
     ],
     labour: ["JAFZA Freezone", "Warehouse & Labour Camp"],
+    saudi: ["Al Khobar", "Riyadh", "Madeena"],
   };
 
   return (
@@ -47,7 +48,9 @@ export default function SpecialisationShowcase() {
           <p className="text-[#f7f0f1]/70 mt-6 max-w-3xl mx-auto text-lg font-[note]">
             Our expertise lies in{" "}
             <span className="text-[#a97a67]">warehouse</span>,{" "}
-            <span className="text-[#a97a67]">industrial property management</span>
+            <span className="text-[#a97a67]">
+              industrial property management
+            </span>
             , and <span className="text-[#a97a67]">labour camps</span>. We
             provide tailored real estate solutions that meet the unique demands
             of businesses and communities.
@@ -84,9 +87,7 @@ export default function SpecialisationShowcase() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-left max-w-5xl mx-auto">
             {/* General Areas */}
             <div>
-              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">
-                General
-              </h3>
+              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">General</h3>
               <ul className="space-y-2 text-[#f7f0f1]/80 font-[note]">
                 {areas.general.map((area, idx) => (
                   <li key={idx}>• {area}</li>
@@ -96,9 +97,7 @@ export default function SpecialisationShowcase() {
 
             {/* Warehouse */}
             <div>
-              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">
-                Warehouse
-              </h3>
+              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">Warehouse</h3>
               <ul className="space-y-2 text-[#f7f0f1]/80 font-[note]">
                 {areas.warehouse.map((area, idx) => (
                   <li key={idx}>• {area}</li>
@@ -116,6 +115,30 @@ export default function SpecialisationShowcase() {
                   <li key={idx}>• {area}</li>
                 ))}
               </ul>
+            </div>
+
+            {/* Saudi Arabia */}
+            <div>
+              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">
+                Saudi Arabia
+              </h3>
+              <ul className="space-y-2 text-[#f7f0f1]/80 font-[note]">
+                {areas.saudi.map((city, idx) => (
+                  <li key={idx}>• {city}</li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Bahrain */}
+            <div>
+              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">Bahrain</h3>
+              <p className="text-[#f7f0f1]/80 font-[note]">• Entire Kingdom</p>
+            </div>
+
+            {/* India */}
+            <div>
+              <h3 className="text-[#a97a67] text-xl font-[note] mb-4">India</h3>
+              <p className="text-[#f7f0f1]/80 font-[note]">• Major Cities</p>
             </div>
           </div>
         </div>
