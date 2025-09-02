@@ -22,7 +22,8 @@ function ExpertsSection() {
           legacy that stands the test of time.”
         </p>
         <div className="mt-6 mb-10">
-          <p className="font-[biondi] text-xl">— Aboobacker, Chairman</p>
+          <p className="font-[biondi] text-xl">— Aboobacker K Vattaparmbil, Chairman</p>
+                    <p className="font-[biondi] text-xl">mail: aboobacker@askanova.ae</p>
         </div>
 
         {/* CTA Button */}
