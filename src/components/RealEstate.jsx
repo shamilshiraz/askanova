@@ -23,7 +23,7 @@ function RealEstateForm() {
           <input
             type="hidden"
             name="access_key"
-            value="YOUR-WEB3FORMS-ACCESS-KEY"
+            value="fdf7caf8-514d-4e41-a593-aac1eed3ad07"
           />
 
           {/* Heading */}
