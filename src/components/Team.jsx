@@ -35,7 +35,7 @@ const consultants = [
     name: "Jafar",
     role: "Executive director",
     description: "Corporate leasing & relocation expertise.",
-    image: "/rafhik.jpg",
+    image: "/jafar.jpg",
   },
 ];
 
