@@ -31,6 +31,12 @@ const consultants = [
     description: "Corporate leasing & relocation expertise.",
     image: "/rafhik.jpg",
   },
+      {
+    name: "Jafar",
+    role: "Executive director",
+    description: "Corporate leasing & relocation expertise.",
+    image: "/rafhik.jpg",
+  },
 ];
 
 export default function TeamSection() {
